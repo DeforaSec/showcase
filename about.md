@@ -18,6 +18,76 @@ title: About
   </div>
 </div>
 
+## Research Timeline
+
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">Jun 2023</div>
+    <div class="timeline-title">First security research published — Pharming Attack analysis</div>
+    <div class="timeline-desc">Network security deep-dive on Medium</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Jun 2023</div>
+    <div class="timeline-title">Bug reporting experience on Facebook</div>
+    <div class="timeline-desc">First bug bounty engagement</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Sep 2024</div>
+    <div class="timeline-title">TryHackMe — Multi-Factor Authentication writeup</div>
+    <div class="timeline-desc">Published on Medium</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Dec 2024</div>
+    <div class="timeline-title">QR Code security — principles, risks, and threats</div>
+    <div class="timeline-desc">Comprehensive threat analysis published</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Jan 2025</div>
+    <div class="timeline-title">BTLO Forensics — Follina CVE-2022-30190</div>
+    <div class="timeline-desc">CVE analysis and exploitation walkthrough</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Feb 2025</div>
+    <div class="timeline-title">Forensics deep-dive — Shiba Insider, BruteForce</div>
+    <div class="timeline-desc">Multiple BTLO forensic challenges solved</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Mar 2025</div>
+    <div class="timeline-title">Reverse engineering — Injection Series, Secrets</div>
+    <div class="timeline-desc">BTLO reverse engineering challenges</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">May 2025</div>
+    <div class="timeline-title">Android penetration testing — InsecureBankv2</div>
+    <div class="timeline-desc">Mobile security research published</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Jul 2025</div>
+    <div class="timeline-title">PHP offensive security — dangerous functions analysis</div>
+    <div class="timeline-desc">In-depth web security research</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Aug 2025</div>
+    <div class="timeline-title">JavaScript topics for offensive security</div>
+    <div class="timeline-desc">Web security research published</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Sep 2025</div>
+    <div class="timeline-title">Client-side secrecy failures in mobile apps</div>
+    <div class="timeline-desc">Mobile security practical review</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Dec 2025</div>
+    <div class="timeline-title">VMware BIOS + Linux initramfs research</div>
+    <div class="timeline-desc">Infrastructure and OS security</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">2026</div>
+    <div class="timeline-title">Active research &mdash; ongoing</div>
+    <div class="timeline-desc">New write-ups, HoF entries, and OSS contributions</div>
+  </div>
+</div>
+
 ## Mission
 
 To strengthen the security posture of open-source and enterprise software through rigorous vulnerability research, responsible disclosure, and community-driven tooling.
