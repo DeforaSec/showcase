@@ -96,27 +96,24 @@ To strengthen the security posture of open-source and enterprise software throug
 
 Security research acknowledged by industry leaders:
 
-<div class="hof-grid">
-  <div class="hof-card">
-    <div class="hof-icon">&#9733;</div>
-    <div>
-      <strong>Etherscan</strong>
-      <p>Bug Bounty Hall of Fame — <a href="https://etherscan.io/bugbounty" target="_blank">etherscan.io/bugbounty</a></p>
-    </div>
+<div class="trophy-wall">
+  <div class="trophy-card">
+    <span class="trophy-rank">&#9733;</span>
+    <span class="trophy-platform">Etherscan</span>
+    <span class="trophy-desc">Bug Bounty Hall of Fame</span>
+    <a class="trophy-link" href="https://etherscan.io/bugbounty" target="_blank">Verify &rarr;</a>
   </div>
-  <div class="hof-card">
-    <div class="hof-icon">&#9733;</div>
-    <div>
-      <strong>Bugcrowd / Afterpay</strong>
-      <p>#52 Hall of Fame — <a href="https://bugcrowd.com/engagements/afterpay/hall_of_fames" target="_blank">bugcrowd.com</a></p>
-    </div>
+  <div class="trophy-card">
+    <span class="trophy-rank">#52</span>
+    <span class="trophy-platform">Bugcrowd / Afterpay</span>
+    <span class="trophy-desc">Hall of Fame</span>
+    <a class="trophy-link" href="https://bugcrowd.com/engagements/afterpay/hall_of_fames" target="_blank">Verify &rarr;</a>
   </div>
-  <div class="hof-card">
-    <div class="hof-icon">&#9733;</div>
-    <div>
-      <strong>ArcGIS (Esri)</strong>
-      <p>Security Researcher Acknowledgement — <a href="https://trust.arcgis.com/en/security-concern/" target="_blank">trust.arcgis.com</a></p>
-    </div>
+  <div class="trophy-card">
+    <span class="trophy-rank">&#9733;</span>
+    <span class="trophy-platform">ArcGIS (Esri)</span>
+    <span class="trophy-desc">Security Researcher Acknowledgement</span>
+    <a class="trophy-link" href="https://trust.arcgis.com/en/security-concern/" target="_blank">Verify &rarr;</a>
   </div>
 </div>
 

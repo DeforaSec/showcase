@@ -452,40 +452,6 @@ main hr {
 /* Table cell styling */
 td:first-child { white-space: nowrap; }
 
-/* Hall of Fame grid */
-.hof-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
-  margin: 20px 0;
-}
-.hof-card {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  background: #161b22;
-  border: 1px solid #30363d;
-  border-radius: 8px;
-  padding: 18px;
-  transition: all 0.25s;
-}
-.hof-card:hover {
-  border-color: #58a6ff;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(88, 166, 255, 0.1);
-}
-.hof-card p {
-  margin: 4px 0 0;
-  font-size: 0.8rem;
-  color: #8b949e;
-}
-.hof-card a { font-size: 0.8rem; }
-.hof-icon {
-  font-size: 1.5rem;
-  color: #f0c674;
-  flex-shrink: 0;
-}
-
 /* Org grid on About page */
 .org-grid {
   display: flex;
