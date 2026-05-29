@@ -19,6 +19,56 @@ title: Home
   </div>
 </div>
 
+<div class="stats-bar">
+  <div class="stat-item">
+    <span class="stat-number">16</span>
+    <span class="stat-label">Write-ups</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">3</span>
+    <span class="stat-label">Hall of Fame</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">5</span>
+    <span class="stat-label">OSS Orgs</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">2</span>
+    <span class="stat-label">Years Active</span>
+  </div>
+</div>
+
+---
+
+## Research Radar
+
+<div class="radar-grid">
+  <div class="radar-item radar-web">
+    <span class="count">3</span>
+    <span class="label">Web Security</span>
+  </div>
+  <div class="radar-item radar-mobile">
+    <span class="count">2</span>
+    <span class="label">Mobile Security</span>
+  </div>
+  <div class="radar-item radar-forensics">
+    <span class="count">6</span>
+    <span class="label">Forensics &amp; Reversing</span>
+  </div>
+  <div class="radar-item radar-infra">
+    <span class="count">2</span>
+    <span class="label">Infrastructure &amp; OS</span>
+  </div>
+  <div class="radar-item radar-bounty">
+    <span class="count">4</span>
+    <span class="label">Bug Bounty &amp; HoF</span>
+  </div>
+  <div class="radar-item radar-network">
+    <span class="count">3</span>
+    <span class="label">Network &amp; Auth</span>
+  </div>
+</div>
+
 ---
 
 ## Focus Areas
