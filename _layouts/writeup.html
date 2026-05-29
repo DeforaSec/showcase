@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-  <meta name="description" content="DeforaSec — Independent security research and consultancy. VAPT, web security, mobile security, and custom security tooling.">
+  <title>{{ page.title }} — DeforaSec</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
@@ -25,7 +25,16 @@
   </header>
 
   <main class="container">
-    {{ content }}
+    <p class="breadcrumb"><a href="{{ '/research' | relative_url }}">&larr; Back to Research</a></p>
+    <h1>{{ page.title }}</h1>
+    <p class="writeup-meta">
+      <span>{{ page.category }}</span>
+      {% if page.date %}<span>{{ page.date | date: "%B %Y" }}</span>{% endif %}
+    </p>
+    <div class="writeup-embed">
+      <iframe src="https://medium.com/media/{{ page.medium_id }}/embed" frameborder="0" scrolling="no" width="100%" height="800" style="border: none; border-radius: 8px; background: #fff;" onerror="this.style.display='none'"></iframe>
+    </div>
+    <p class="text-center" style="margin-top: 24px;"><a href="https://medium.com/@inksecghiwir3/{{ page.medium_slug }}" target="_blank" class="btn-outline">Read on Medium &rarr;</a></p>
   </main>
 
   <footer class="site-footer">

@@ -20,7 +20,10 @@ This is **Sajan Ghimire**'s (`@SajanGhimire1`) personal portfolio for DeforaSec 
 ## Key files
 - `README.md` — GitHub repo front page
 - `index.md` — Website landing page (Jekyll)
-- `research.md`, `tools.md`, `contributions.md`, `about.md` — Website section pages
+- `services.md` — Service offerings (VAPT, Web, Mobile, Tooling)
+- `research.md` — Write-up archive
+- `contributions.md` — OSS contribution summaries
+- `about.md` — Company profile + Hall of Fame
 - `CONTRIBUTING.md` — Community contribution guide
 - `_config.yml` — Jekyll/Pages config (`baseurl: /showcase`)
 - `AGENTS.md` — This file
@@ -28,7 +31,7 @@ This is **Sajan Ghimire**'s (`@SajanGhimire1`) personal portfolio for DeforaSec 
 ## Build / Deploy
 - No local build command — GitHub Pages auto-builds on push to `main`
 - Site URL: `https://deforasec.github.io/showcase/`
-- Layout is custom CSS (not midnight theme) — edit `_layouts/default.html` and `assets/css/style.css`
+- Layout is custom CSS — edit `_layouts/default.html` and `assets/css/style.css`
 - Add logo to `assets/img/` with filename `logo.png` (site references it)
 
 ## Conventions
