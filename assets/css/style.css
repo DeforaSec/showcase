@@ -78,6 +78,27 @@ main h3 {
 main p { margin-bottom: 16px; }
 main ul, main ol { margin: 0 0 16px 24px; }
 main li { margin-bottom: 6px; }
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+main th, main td {
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid #30363d;
+  font-size: 0.92rem;
+}
+main th {
+  color: #8b949e;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+main tr:last-child td { border-bottom: none; }
+main tr:hover td { background: #161b2244; }
+
 main hr {
   border: none;
   border-top: 1px solid #30363d;
@@ -110,6 +131,50 @@ main hr {
   font-weight: 500;
   margin: 0 4px 8px;
 }
+
+/* Org logo in header */
+.org-logo {
+  height: 36px;
+  width: auto;
+  margin-bottom: 4px;
+}
+
+/* Profile section on About page */
+.profile-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 24px 0 32px;
+}
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #30363d;
+  flex-shrink: 0;
+}
+@media (max-width: 500px) {
+  .profile-row { flex-direction: column; text-align: center; }
+}
+
+/* Brand badges in contribution tables */
+.badge-ms, .badge-meta, .badge-li, .badge-thor, .badge-easy {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.badge-ms { background: #00a4ef22; color: #00a4ef; border: 1px solid #00a4ef44; }
+.badge-meta { background: #0866ff22; color: #0866ff; border: 1px solid #0866ff44; }
+.badge-li { background: #0a66c222; color: #0a66c2; border: 1px solid #0a66c244; }
+.badge-thor { background: #ff450022; color: #ff7833; border: 1px solid #ff450044; }
+.badge-easy { background: #2ea44f22; color: #2ea44f; border: 1px solid #2ea44f44; }
+
+/* Table cell styling */
+td:first-child { white-space: nowrap; }
 
 /* Cards */
 .cards {

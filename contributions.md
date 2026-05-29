@@ -15,13 +15,13 @@ Full details are maintained in [`OSS_CONTRIBUTIONS.md`](/contributions/OSS_CONTR
 
 | Organization | Project | Area |
 |---|---|---|
-| Microsoft | vscode | Code editor enhancements |
-| Microsoft | msphpsql | PHP SQL Server driver |
-| Facebook / Meta | igl | Intermediate graphics library |
-| Facebook / Meta | buck2 | Build system |
-| LinkedIn | Liger-Kernel | Kernel optimization |
-| THORCollective | HEARTH | Security research framework |
-| Easy-WI | Easy-WI | Web infrastructure management |
+| <span class="badge-ms">Microsoft</span> | vscode | Code editor enhancements |
+| <span class="badge-ms">Microsoft</span> | msphpsql | PHP SQL Server driver |
+| <span class="badge-meta">Meta</span> | igl | Intermediate graphics library |
+| <span class="badge-meta">Meta</span> | buck2 | Build system |
+| <span class="badge-li">LinkedIn</span> | Liger-Kernel | Kernel optimization |
+| <span class="badge-thor">THORCollective</span> | HEARTH | Security research framework |
+| <span class="badge-easy">Easy-WI</span> | Easy-WI | Web infrastructure management |
 
 ---
 

@@ -8,6 +8,8 @@ This is **Sajan Ghimire**'s (`@SajanGhimire1`) personal portfolio for DeforaSec 
 - `contributions/` — OSS contribution tables
 - `_layouts/` — Jekyll layout (custom dark theme with nav)
 - `assets/` — CSS (`style.css`) and images
+  - `assets/img/logo.png` — Org logo (shown in header)
+  - `assets/img/photo.jpg` — Founder photo (shown on About page)
 
 ## Key files
 - `README.md` — GitHub repo front page

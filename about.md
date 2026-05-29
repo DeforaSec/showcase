@@ -5,7 +5,12 @@ title: About
 
 # About DeforaSec
 
-**DeforaSec** is an independent security research practice founded by **Sajan Ghimire** ([@SajanGhimire1](https://github.com/SajanGhimire1)).
+<div class="profile-row">
+  <img class="profile-photo" src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Sajan Ghimire" onerror="this.style.display='none'">
+  <div>
+    <p><strong>DeforaSec</strong> is an independent security research practice founded by <strong>Sajan Ghimire</strong> (<a href="https://github.com/SajanGhimire1">@SajanGhimire1</a>).</p>
+  </div>
+</div>
 
 ## Mission
 
