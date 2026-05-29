@@ -9,6 +9,31 @@ In-depth vulnerability analysis, penetration testing write-ups, and technical se
 
 ---
 
+## Trophy Wall
+
+<div class="trophy-wall">
+  <div class="trophy-card">
+    <span class="trophy-rank">&#9733;</span>
+    <span class="trophy-platform">Etherscan</span>
+    <span class="trophy-desc">Bug Bounty Hall of Fame</span>
+    <a class="trophy-link" href="https://etherscan.io/bugbounty" target="_blank">Verify &rarr;</a>
+  </div>
+  <div class="trophy-card">
+    <span class="trophy-rank">#52</span>
+    <span class="trophy-platform">Bugcrowd / Afterpay</span>
+    <span class="trophy-desc">Hall of Fame</span>
+    <a class="trophy-link" href="https://bugcrowd.com/engagements/afterpay/hall_of_fames" target="_blank">Verify &rarr;</a>
+  </div>
+  <div class="trophy-card">
+    <span class="trophy-rank">&#9733;</span>
+    <span class="trophy-platform">ArcGIS (Esri)</span>
+    <span class="trophy-desc">Security Researcher Acknowledgement</span>
+    <a class="trophy-link" href="https://trust.arcgis.com/en/security-concern/" target="_blank">Verify &rarr;</a>
+  </div>
+</div>
+
+---
+
 ## Published Research
 
 | Article | Topic | Date |
@@ -32,20 +57,24 @@ In-depth vulnerability analysis, penetration testing write-ups, and technical se
 
 ---
 
-## Hall of Fame Acknowledgments
-
-<div class="hof-grid">
-  <div class="hof-card">
-    <div class="hof-icon">&#9733;</div>
-    <div><strong>Etherscan</strong> — Bug Bounty Hall of Fame</div>
+<div class="trophy-wall">
+  <div class="trophy-card">
+    <span class="trophy-rank">&#9733;</span>
+    <span class="trophy-platform">Etherscan</span>
+    <span class="trophy-desc">Bug Bounty Hall of Fame</span>
+    <a class="trophy-link" href="https://etherscan.io/bugbounty" target="_blank">Verify &rarr;</a>
   </div>
-  <div class="hof-card">
-    <div class="hof-icon">&#9733;</div>
-    <div><strong>Bugcrowd (Afterpay)</strong> — #52 Hall of Fame</div>
+  <div class="trophy-card">
+    <span class="trophy-rank">#52</span>
+    <span class="trophy-platform">Bugcrowd / Afterpay</span>
+    <span class="trophy-desc">Hall of Fame</span>
+    <a class="trophy-link" href="https://bugcrowd.com/engagements/afterpay/hall_of_fames" target="_blank">Verify &rarr;</a>
   </div>
-  <div class="hof-card">
-    <div class="hof-icon">&#9733;</div>
-    <div><strong>ArcGIS Trust Center</strong> — Security Researcher Acknowledgement</div>
+  <div class="trophy-card">
+    <span class="trophy-rank">&#9733;</span>
+    <span class="trophy-platform">ArcGIS (Esri)</span>
+    <span class="trophy-desc">Security Researcher Acknowledgement</span>
+    <a class="trophy-link" href="https://trust.arcgis.com/en/security-concern/" target="_blank">Verify &rarr;</a>
   </div>
 </div>
 
