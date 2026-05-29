@@ -37,13 +37,12 @@ a:hover { text-decoration: underline; }
 .site-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 .brand {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #f0f6fc;
-  letter-spacing: 0.5px;
 }
 .tagline {
   font-size: 0.72rem;
@@ -213,10 +212,8 @@ main hr {
 
 /* Org logo in header */
 .org-logo {
-  height: 32px;
-  width: 32px;
-  border-radius: 6px;
-  object-fit: cover;
+  height: 24px;
+  width: auto;
   flex-shrink: 0;
 }
 
