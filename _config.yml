@@ -1,3 +1,4 @@
-theme: jekyll-theme-midnight
 title: DeforaSec
 description: Elite Security Research & Development by Sajan Ghimire (#InkSec)
+url: "https://sajanghimire1.github.io"
+baseurl: "/showcase"

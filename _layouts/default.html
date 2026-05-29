@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-logo" href="{{ '/' | relative_url }}">
+        <span class="brand">{{ site.title }}</span>
+        <span class="tagline">{{ site.description }}</span>
+      </a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/research' | relative_url }}">Research</a>
+        <a href="{{ '/tools' | relative_url }}">Tools</a>
+        <a href="{{ '/contributions' | relative_url }}">Contributions</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; {{ site.time | date: '%Y' }} DeforaSec. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
