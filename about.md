@@ -23,8 +23,8 @@ title: About
 <div class="timeline">
   <div class="timeline-item">
     <div class="timeline-date">Jun 2023</div>
-    <div class="timeline-title">First security research published — Pharming Attack analysis</div>
-    <div class="timeline-desc">Network security deep-dive on Medium</div>
+    <div class="timeline-title">First security research published — Pharming Attack</div>
+    <div class="timeline-desc">Network security analysis on Medium</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Jun 2023</div>
@@ -33,53 +33,53 @@ title: About
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Sep 2024</div>
-    <div class="timeline-title">TryHackMe — Multi-Factor Authentication writeup</div>
-    <div class="timeline-desc">Published on Medium</div>
+    <div class="timeline-title">TryHackMe — MFA writeup published</div>
+    <div class="timeline-desc">Authentication security research</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Dec 2024</div>
-    <div class="timeline-title">QR Code security — principles, risks, and threats</div>
-    <div class="timeline-desc">Comprehensive threat analysis published</div>
+    <div class="timeline-title">QR Code security analysis published</div>
+    <div class="timeline-desc">Threat landscape deep-dive</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Jan 2025</div>
-    <div class="timeline-title">BTLO Forensics — Follina CVE-2022-30190</div>
-    <div class="timeline-desc">CVE analysis and exploitation walkthrough</div>
+    <div class="timeline-title">Follina CVE-2022-30190 analysis</div>
+    <div class="timeline-desc">BTLO forensics challenge</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Feb 2025</div>
-    <div class="timeline-title">Forensics deep-dive — Shiba Insider, BruteForce</div>
-    <div class="timeline-desc">Multiple BTLO forensic challenges solved</div>
+    <div class="timeline-title">Forensics series — Shiba Insider, BruteForce</div>
+    <div class="timeline-desc">Multiple forensic investigations</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Mar 2025</div>
     <div class="timeline-title">Reverse engineering — Injection Series, Secrets</div>
-    <div class="timeline-desc">BTLO reverse engineering challenges</div>
+    <div class="timeline-desc">BTLO reversing challenges</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">May 2025</div>
-    <div class="timeline-title">Android penetration testing — InsecureBankv2</div>
-    <div class="timeline-desc">Mobile security research published</div>
+    <div class="timeline-title">Android pentesting — InsecureBankv2</div>
+    <div class="timeline-desc">Mobile security research</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Jul 2025</div>
-    <div class="timeline-title">PHP offensive security — dangerous functions analysis</div>
-    <div class="timeline-desc">In-depth web security research</div>
+    <div class="timeline-title">PHP offensive security research</div>
+    <div class="timeline-desc">Dangerous function analysis</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Aug 2025</div>
-    <div class="timeline-title">JavaScript topics for offensive security</div>
-    <div class="timeline-desc">Web security research published</div>
+    <div class="timeline-title">JavaScript for offensive security</div>
+    <div class="timeline-desc">Web security deep-dive</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Sep 2025</div>
-    <div class="timeline-title">Client-side secrecy failures in mobile apps</div>
-    <div class="timeline-desc">Mobile security practical review</div>
+    <div class="timeline-title">Mobile app secrecy failures</div>
+    <div class="timeline-desc">Client-side security review</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Dec 2025</div>
-    <div class="timeline-title">VMware BIOS + Linux initramfs research</div>
-    <div class="timeline-desc">Infrastructure and OS security</div>
+    <div class="timeline-title">VMware BIOS + Linux initramfs</div>
+    <div class="timeline-desc">Infrastructure security research</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2026</div>
@@ -93,8 +93,6 @@ title: About
 To strengthen the security posture of open-source and enterprise software through rigorous vulnerability research, responsible disclosure, and community-driven tooling.
 
 ## Hall of Fame
-
-Security research acknowledged by industry leaders:
 
 <div class="trophy-wall">
   <div class="trophy-card">
@@ -119,8 +117,6 @@ Security research acknowledged by industry leaders:
 
 ## Open Source Contributions
 
-Active contributor across major organizations:
-
 <div class="org-grid">
   <div class="org-item"><span class="badge-ms">Microsoft</span> vscode, msphpsql, opensource.microsoft.com</div>
   <div class="org-item"><span class="badge-meta">Meta</span> igl, buck2, CacheLib</div>
@@ -129,19 +125,12 @@ Active contributor across major organizations:
   <div class="org-item"><span class="badge-easy">Easy-WI</span> developer</div>
 </div>
 
-## Approach
-
-- **Research-first** — Every finding is documented with full technical depth, reproduction steps, and remediation guidance.
-- **Responsible disclosure** — Vendors are notified and given reasonable time to patch before any public publication.
-- **Open by default** — Tools and knowledge are shared openly to raise the baseline of security across the industry.
-
 ## Contact
 
 - GitHub: [@SajanGhimire1](https://github.com/SajanGhimire1)
 - Medium: [@inksecghiwir3](https://medium.com/@inksecghiwir3)
 - LinkedIn: [in/54j4n](https://www.linkedin.com/in/54j4n/)
 - X: [@QuietEcho18](https://x.com/QuietEcho18)
-- Organization: DeforaSec
 
 ---
 

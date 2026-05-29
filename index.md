@@ -4,18 +4,13 @@ title: Home
 ---
 
 <div class="hero">
-  <h1 class="glow-text">DeforaSec</h1>
-  <p class="subtitle">Elite Security Research &amp; Development. Uncovering vulnerabilities, building tools, and strengthening the open-source ecosystem.</p>
+  <h1>DeforaSec</h1>
+  <p class="subtitle">Independent security research practice specializing in vulnerability discovery, penetration testing, and open-source security tooling.</p>
   <div>
-    <span class="badge">&#9670; Vulnerability Research</span>
-    <span class="badge">&#9670; Security Tooling</span>
-    <span class="badge">&#9670; Open Source</span>
-  </div>
-  <div class="hero-social">
-    <a href="https://github.com/SajanGhimire1" target="_blank">GitHub</a>
-    <a href="https://medium.com/@inksecghiwir3" target="_blank">Medium</a>
-    <a href="https://www.linkedin.com/in/54j4n/" target="_blank">LinkedIn</a>
-    <a href="https://x.com/QuietEcho18" target="_blank">X / Twitter</a>
+    <span class="badge">Web Security</span>
+    <span class="badge">Mobile Security</span>
+    <span class="badge">Forensics</span>
+    <span class="badge">Bug Bounty</span>
   </div>
 </div>
 
@@ -60,8 +55,8 @@ title: Home
     <span class="label">Infrastructure &amp; OS</span>
   </div>
   <div class="radar-item radar-bounty">
-    <span class="count">4</span>
-    <span class="label">Bug Bounty &amp; HoF</span>
+    <span class="count">3</span>
+    <span class="label">Bug Bounty</span>
   </div>
   <div class="radar-item radar-network">
     <span class="count">3</span>
@@ -84,13 +79,13 @@ title: Home
   </a>
   <a href="{{ '/contributions' | relative_url }}" class="card">
     <h3>Open Source</h3>
-    <p>Active contributions to Microsoft, Meta, LinkedIn, THORCollective, and Easy-WI — from code editors and build systems to kernel optimization.</p>
+    <p>Active contributions across Microsoft, Meta, LinkedIn, THORCollective, and Easy-WI — from code editors and build systems to kernel optimization.</p>
   </a>
 </div>
 
 ---
 
-## Latest Research
+## Latest
 
 <div class="latest-articles">
   <a href="https://medium.com/@inksecghiwir3/understanding-dangerous-php-functions-from-an-offensive-security-perspective-df2e5e254831" target="_blank" class="article-link">
