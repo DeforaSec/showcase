@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Services
+title: Expertise
 ---
 
 <div class="service-hero">
-  <h1>Services</h1>
-  <p>DeforaSec provides comprehensive security services to help organizations identify vulnerabilities, strengthen defenses, and build more secure products.</p>
+  <h1>Expertise</h1>
+  <p>Security research and vulnerability discovery across multiple domains. From web and mobile applications to infrastructure and custom security tooling.</p>
 </div>
 
 ---
@@ -13,21 +13,21 @@ title: Services
 ## Vulnerability Assessment &amp; Penetration Testing
 
 <div class="service-card" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px;">
-  <p>Systematic testing of applications, APIs, and infrastructure to identify security weaknesses before they can be exploited.</p>
+  <p>Systematic security testing to identify vulnerabilities before they can be exploited.</p>
   <ul class="feature-list">
     <li>Web application penetration testing (manual + automated)</li>
     <li>API and microservice security assessment</li>
     <li>Mobile app security testing (Android &amp; iOS)</li>
     <li>Network and infrastructure penetration testing</li>
     <li>Cloud security configuration review</li>
-    <li>Detailed reporting with actionable remediation guidance</li>
+    <li>Detailed reporting with remediation guidance</li>
   </ul>
 </div>
 
 ## Web Application Security
 
 <div class="service-card" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; margin-top: 16px;">
-  <p>In-depth security analysis of web platforms, from authentication mechanisms to business logic vulnerabilities.</p>
+  <p>In-depth security analysis of web platforms from authentication to business logic.</p>
   <ul class="feature-list">
     <li>OWASP Top 10 vulnerability assessment</li>
     <li>Authentication and session management review</li>
@@ -41,43 +41,39 @@ title: Services
 ## Mobile Application Security
 
 <div class="service-card" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; margin-top: 16px;">
-  <p>Comprehensive mobile security testing covering both Android and iOS platforms, from client-side issues to server-side vulnerabilities.</p>
+  <p>Comprehensive mobile security testing for Android and iOS platforms.</p>
   <ul class="feature-list">
     <li>Reverse engineering and tampering analysis</li>
     <li>Client-side secrecy and data storage review</li>
     <li>Certificate validation and TLS inspection</li>
     <li>Insecure deep link and intent handling</li>
     <li>API and backend communication analysis</li>
-    <li>Runtime application self-protection (RASP) bypass testing</li>
+    <li>Runtime application self-protection (RASP) testing</li>
   </ul>
 </div>
 
 ## Custom Security Tooling
 
 <div class="service-card" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; margin-top: 16px;">
-  <p>Development of custom security tools, scripts, and automation frameworks tailored to specific testing requirements.</p>
+  <p>Development of custom tools and automation for security testing workflows.</p>
   <ul class="feature-list">
     <li>Custom vulnerability scanners and fuzzers</li>
     <li>Automation scripts for CI/CD security pipelines</li>
     <li>Proof-of-concept exploit development</li>
     <li>Log analysis and threat detection tooling</li>
-    <li>Security monitoring and alerting systems</li>
+    <li>Security monitoring automation</li>
   </ul>
 </div>
 
----
+## Infrastructure Security
 
-## Engagement Model
-
-All engagements follow a structured, professional process:
-
-1. **Scoping** — Define objectives, targets, and boundaries
-2. **Reconnaissance** — Information gathering and surface mapping
-3. **Testing** — Systematic manual and automated security testing
-4. **Analysis** — Verification, correlation, and risk assessment
-5. **Reporting** — Detailed findings with remediation guidance
-6. **Follow-up** — Re-testing and consultation as needed
-
----
-
-*For inquiries, reach out via GitHub or LinkedIn.*
+<div class="service-card" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; margin-top: 16px;">
+  <p>Security assessment of networks, cloud environments, and containerized systems.</p>
+  <ul class="feature-list">
+    <li>Network penetration testing (internal and external)</li>
+    <li>Cloud security posture review</li>
+    <li>Container and Kubernetes security</li>
+    <li>Configuration hardening and baseline review</li>
+    <li>Active Directory security assessment</li>
+  </ul>
+</div>

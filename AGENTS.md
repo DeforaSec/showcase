@@ -20,8 +20,8 @@ This is **Sajan Ghimire**'s (`@SajanGhimire1`) personal portfolio for DeforaSec 
 ## Key files
 - `README.md` — GitHub repo front page
 - `index.md` — Website landing page (Jekyll)
-- `services.md` — Service offerings (VAPT, Web, Mobile, Tooling)
-- `research.md` — Write-up archive
+- `expertise.md` — Security capabilities (VAPT, Web, Mobile, Tooling)
+- `writeups.md` — Write-up archive (links to Medium)
 - `contributions.md` — OSS contribution summaries
 - `about.md` — Company profile + Hall of Fame
 - `CONTRIBUTING.md` — Community contribution guide

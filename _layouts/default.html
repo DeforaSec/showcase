@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-  <meta name="description" content="DeforaSec — Independent security research and consultancy. VAPT, web security, mobile security, and custom security tooling.">
+  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} — {% endif %}DeforaSec</title>
+  <meta name="description" content="DeforaSec — Security research, vulnerability discovery, penetration testing, and open-source security tooling.">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
@@ -16,8 +16,8 @@
       </a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/services' | relative_url }}">Services</a>
-        <a href="{{ '/research' | relative_url }}">Research</a>
+        <a href="{{ '/expertise' | relative_url }}">Expertise</a>
+        <a href="{{ '/writeups' | relative_url }}">Writeups</a>
         <a href="{{ '/contributions' | relative_url }}">Open Source</a>
         <a href="{{ '/about' | relative_url }}">About</a>
       </nav>
@@ -33,19 +33,20 @@
       <div class="footer-grid">
         <div>
           <strong>DeforaSec</strong>
-          <p>Independent security research and consultancy.</p>
+          <p>Security research and vulnerability discovery.</p>
         </div>
         <div>
-          <strong>Services</strong>
-          <a href="{{ '/services' | relative_url }}">VAPT</a>
-          <a href="{{ '/services' | relative_url }}">Web Security</a>
-          <a href="{{ '/services' | relative_url }}">Mobile Security</a>
+          <strong>Explore</strong>
+          <a href="{{ '/expertise' | relative_url }}">Expertise</a>
+          <a href="{{ '/writeups' | relative_url }}">Writeups</a>
+          <a href="{{ '/contributions' | relative_url }}">Open Source</a>
         </div>
         <div>
           <strong>Connect</strong>
           <a href="https://github.com/SajanGhimire1" target="_blank">GitHub</a>
           <a href="https://medium.com/@inksecghiwir3" target="_blank">Medium</a>
           <a href="https://www.linkedin.com/in/54j4n/" target="_blank">LinkedIn</a>
+          <a href="https://x.com/QuietEcho18" target="_blank">X / Twitter</a>
         </div>
       </div>
       <p class="footer-copy">&copy; {{ site.time | date: '%Y' }} DeforaSec. All rights reserved.</p>
