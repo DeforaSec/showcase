@@ -11,18 +11,24 @@ Active contributions across the open-source ecosystem — from code editors and 
 
 ## Contribution Log
 
-Full details are maintained in [`OSS_CONTRIBUTIONS.md`](/contributions/OSS_CONTRIBUTIONS.md).
+| Organization | Projects |
+|---|---|
+| <span class="badge-ms">Microsoft</span> | vscode, msphpsql, opensource.microsoft.com |
+| <span class="badge-meta">Meta</span> | igl, buck2, CacheLib |
+| <span class="badge-li">LinkedIn</span> | Liger-Kernel |
+| <span class="badge-thor">THORCollective</span> | HEARTH |
+| <span class="badge-easy">Easy-WI</span> | developer |
 
-| Organization | Project | Area |
-|---|---|---|
-| <span class="badge-ms">Microsoft</span> | vscode | Code editor enhancements |
-| <span class="badge-ms">Microsoft</span> | msphpsql | PHP SQL Server driver |
-| <span class="badge-meta">Meta</span> | igl | Intermediate graphics library |
-| <span class="badge-meta">Meta</span> | buck2 | Build system |
-| <span class="badge-li">LinkedIn</span> | Liger-Kernel | Kernel optimization |
-| <span class="badge-thor">THORCollective</span> | HEARTH | Security research framework |
-| <span class="badge-easy">Easy-WI</span> | Easy-WI | Web infrastructure management |
+Full details maintained in [`OSS_CONTRIBUTIONS.md`](/contributions/OSS_CONTRIBUTIONS.md).
 
 ---
+
+## Activity Highlights
+
+- **Microsoft** — Code editor features, PHP SQL Server driver contributions, open-source program
+- **Meta** — Intermediate graphics library (igl), build system (buck2), caching infrastructure (CacheLib)
+- **LinkedIn** — Kernel optimization for training efficiency (Liger-Kernel)
+- **THORCollective** — Security research framework (HEARTH)
+- **Easy-WI** — Web infrastructure management tooling
 
 Contributions follow responsible disclosure and open-source best practices. Each project listed represents meaningful, reviewed commits to production codebases.

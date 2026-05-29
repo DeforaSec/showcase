@@ -11,6 +11,12 @@ This is **Sajan Ghimire**'s (`@SajanGhimire1`) personal portfolio for DeforaSec 
   - `assets/img/logo.png` — Org logo (shown in header)
   - `assets/img/photo.jpg` — Founder photo (shown on About page)
 
+## External profiles
+- **Medium** (research write-ups): `https://medium.com/@inksecghiwir3`
+- **LinkedIn**: `https://www.linkedin.com/in/54j4n/`
+- **X/Twitter**: `https://x.com/QuietEcho18`
+- **Hall of Fame**: Etherscan, Bugcrowd (Afterpay #52), ArcGIS Trust Center
+
 ## Key files
 - `README.md` — GitHub repo front page
 - `index.md` — Website landing page (Jekyll)

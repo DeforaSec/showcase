@@ -4,12 +4,18 @@ title: Home
 ---
 
 <div class="hero">
-  <h1>DeforaSec</h1>
+  <h1 class="glow-text">DeforaSec</h1>
   <p class="subtitle">Elite Security Research &amp; Development. Uncovering vulnerabilities, building tools, and strengthening the open-source ecosystem.</p>
   <div>
     <span class="badge">&#9670; Vulnerability Research</span>
     <span class="badge">&#9670; Security Tooling</span>
     <span class="badge">&#9670; Open Source</span>
+  </div>
+  <div class="hero-social">
+    <a href="https://github.com/SajanGhimire1" target="_blank">GitHub</a>
+    <a href="https://medium.com/@inksecghiwir3" target="_blank">Medium</a>
+    <a href="https://www.linkedin.com/in/54j4n/" target="_blank">LinkedIn</a>
+    <a href="https://x.com/QuietEcho18" target="_blank">X / Twitter</a>
   </div>
 </div>
 
@@ -20,7 +26,7 @@ title: Home
 <div class="cards">
   <a href="{{ '/research' | relative_url }}" class="card">
     <h3>Security Research</h3>
-    <p>In-depth vulnerability analysis and responsible disclosure write-ups across web, mobile, and infrastructure.</p>
+    <p>In-depth vulnerability analysis and responsible disclosure write-ups across web, mobile, and infrastructure. Published on Medium and acknowledged in multiple Hall of Fame programs.</p>
   </a>
   <a href="{{ '/tools' | relative_url }}" class="card">
     <h3>Security Tooling</h3>
@@ -28,15 +34,27 @@ title: Home
   </a>
   <a href="{{ '/contributions' | relative_url }}" class="card">
     <h3>Open Source</h3>
-    <p>Active contributions to major projects including Microsoft, Meta, LinkedIn, and community-driven security frameworks.</p>
+    <p>Active contributions to Microsoft, Meta, LinkedIn, THORCollective, and Easy-WI — from code editors and build systems to kernel optimization.</p>
   </a>
 </div>
 
 ---
 
-## Latest Work
+## Latest Research
 
-Browse the **[Research](/research)** section for detailed vulnerability write-ups, or explore **[Tools](/tools)** for practical security scripts. Visit **[Contributions](/contributions)** to see open-source impact across the industry.
+<div class="latest-articles">
+  <a href="https://medium.com/@inksecghiwir3/understanding-dangerous-php-functions-from-an-offensive-security-perspective-df2e5e254831" target="_blank" class="article-link">
+    Understanding Dangerous PHP Functions from an Offensive Security Perspective
+  </a>
+  <a href="https://medium.com/@inksecghiwir3/the-invisible-bios-setting-that-broke-my-vmware-and-how-to-fix-it-9c92cfe0713c" target="_blank" class="article-link">
+    The Invisible BIOS Setting That Broke My VMware And How to Fix It
+  </a>
+  <a href="https://medium.com/@inksecghiwir3/client-side-secrecy-failures-in-mobile-apps-a-practical-review-0a3ab2de9de8" target="_blank" class="article-link">
+    Client-side Secrecy Failures in Mobile Apps — A Practical Review
+  </a>
+</div>
+
+<p class="text-center"><a href="{{ '/research' | relative_url }}">View all research &rarr;</a></p>
 
 ---
 

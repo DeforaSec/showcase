@@ -5,9 +5,15 @@ body {
   background: #0d1117;
   color: #c9d1d9;
   line-height: 1.7;
+  animation: fadeIn 0.6s ease;
 }
 
-a { color: #58a6ff; text-decoration: none; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+a { color: #58a6ff; text-decoration: none; transition: color 0.2s; }
 a:hover { text-decoration: underline; }
 
 .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
@@ -105,6 +111,8 @@ main hr {
   margin: 32px 0;
 }
 
+.text-center { text-align: center; }
+
 /* Hero section */
 .hero {
   text-align: center;
@@ -113,6 +121,7 @@ main hr {
 .hero h1 {
   font-size: 2.6rem;
   margin-bottom: 8px;
+  letter-spacing: 1px;
 }
 .hero .subtitle {
   font-size: 1.15rem;
@@ -130,6 +139,71 @@ main hr {
   font-size: 0.85rem;
   font-weight: 500;
   margin: 0 4px 8px;
+  transition: all 0.3s;
+}
+.hero .badge:hover {
+  background: #1f6feb44;
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+}
+
+/* Glow effect on hero title */
+.glow-text {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from { text-shadow: 0 0 10px rgba(88, 166, 255, 0.3); }
+  to { text-shadow: 0 0 25px rgba(88, 166, 255, 0.6); }
+}
+
+/* Hero social links */
+.hero-social {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hero-social a {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.25s;
+}
+.hero-social a:hover {
+  border-color: #58a6ff;
+  color: #58a6ff;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.15);
+}
+
+/* Latest articles on home page */
+.latest-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0;
+}
+.article-link {
+  display: block;
+  padding: 12px 16px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  font-size: 0.9rem;
+  transition: all 0.25s;
+}
+.article-link:hover {
+  border-color: #58a6ff;
+  color: #58a6ff;
+  text-decoration: none;
+  transform: translateX(4px);
 }
 
 /* Org logo in header */
@@ -153,12 +227,38 @@ main hr {
   object-fit: cover;
   border: 3px solid #30363d;
   flex-shrink: 0;
+  transition: border-color 0.3s;
 }
+.profile-photo:hover { border-color: #58a6ff; }
+
+/* Social links under profile */
+.social-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.social-links a {
+  display: inline-block;
+  padding: 5px 14px;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  color: #8b949e;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.25s;
+}
+.social-links a:hover {
+  border-color: #58a6ff;
+  color: #58a6ff;
+  text-decoration: none;
+}
+
 @media (max-width: 500px) {
   .profile-row { flex-direction: column; text-align: center; }
 }
 
-/* Brand badges in contribution tables */
+/* Brand badges */
 .badge-ms, .badge-meta, .badge-li, .badge-thor, .badge-easy {
   display: inline-block;
   padding: 2px 10px;
@@ -176,6 +276,53 @@ main hr {
 /* Table cell styling */
 td:first-child { white-space: nowrap; }
 
+/* Hall of Fame grid */
+.hof-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.hof-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 18px;
+  transition: all 0.25s;
+}
+.hof-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(88, 166, 255, 0.1);
+}
+.hof-card p {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+.hof-card a { font-size: 0.8rem; }
+.hof-icon {
+  font-size: 1.5rem;
+  color: #f0c674;
+  flex-shrink: 0;
+}
+
+/* Org grid on About page */
+.org-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0;
+}
+.org-item {
+  padding: 8px 0;
+  font-size: 0.92rem;
+  border-bottom: 1px solid #21262d;
+}
+
 /* Cards */
 .cards {
   display: grid;
@@ -188,9 +335,13 @@ td:first-child { white-space: nowrap; }
   border: 1px solid #30363d;
   border-radius: 8px;
   padding: 24px;
-  transition: border-color 0.2s;
+  transition: all 0.3s;
 }
-.card:hover { border-color: #58a6ff; }
+.card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(88, 166, 255, 0.1);
+}
 .card h3 { margin: 0 0 8px; font-size: 1.1rem; }
 .card p { font-size: 0.9rem; color: #8b949e; margin: 0; }
 
