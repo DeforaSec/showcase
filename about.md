@@ -6,7 +6,7 @@ title: About
 # About DeforaSec
 
 <div class="profile-row">
-  <img class="profile-photo" src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Sajan Ghimire" onerror="this.style.display='none'">
+  <img class="profile-photo" src="{{ '/assets/img/photo.png' | relative_url }}" alt="Sajan Ghimire" onerror="this.style.display='none'">
   <div>
     <p><strong>DeforaSec</strong> is an independent security research practice founded by <strong>Sajan Ghimire</strong> (<a href="https://github.com/SajanGhimire1">@SajanGhimire1</a>), also known as <strong>#InkSec</strong>.</p>
     <div class="social-links">

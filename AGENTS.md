@@ -9,7 +9,7 @@ This is **Sajan Ghimire**'s (`@SajanGhimire1`) personal portfolio for DeforaSec 
 - `_layouts/` — Jekyll layout (custom dark theme with nav)
 - `assets/` — CSS (`style.css`) and images
   - `assets/img/logo.png` — Org logo (shown in header)
-  - `assets/img/photo.jpg` — Founder photo (shown on About page)
+  - `assets/img/photo.png` — Founder photo (shown on About page)
 
 ## External profiles
 - **Medium** (research write-ups): `https://medium.com/@inksecghiwir3`
