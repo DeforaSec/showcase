@@ -19,7 +19,7 @@ This is **Sajan Ghimire**'s (`@SajanGhimire1`) personal portfolio for DeforaSec 
 
 ## Build / Deploy
 - No local build command — GitHub Pages auto-builds on push to `main`
-- Site URL: `https://sajanghimire1.github.io/showcase/`
+- Site URL: `https://deforasec.github.io/showcase/`
 - Layout is custom CSS (not midnight theme) — edit `_layouts/default.html` and `assets/css/style.css`
 - Add logo to `assets/img/` with filename `logo.png` (site references it)
 

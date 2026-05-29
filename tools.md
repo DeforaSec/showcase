@@ -11,7 +11,7 @@ Custom-built scripts and utilities for security research, penetration testing, a
 
 ## Tool Index
 
-Each tool lives in the [`/tools`](https://github.com/SajanGhimire1/showcase/tree/main/tools) directory with its own README documenting usage and dependencies.
+Each tool lives in the [`/tools`](https://github.com/DeforaSec/showcase/tree/main/tools) directory with its own README documenting usage and dependencies.
 
 | Tool | Description | Language |
 |---|---|---|

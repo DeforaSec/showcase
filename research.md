@@ -11,7 +11,7 @@ In-depth vulnerability analysis, responsible disclosure, and technical write-ups
 
 ## Research Archive
 
-Research submissions are stored in the [`/research`](https://github.com/SajanGhimire1/showcase/tree/main/research) directory of this repository.
+Research submissions are stored in the [`/research`](https://github.com/DeforaSec/showcase/tree/main/research) directory of this repository.
 
 | Write-up | Date | Severity |
 |---|---|---|
